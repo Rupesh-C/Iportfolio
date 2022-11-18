@@ -860,9 +860,10 @@ section {
 
 .contact .info {
     padding: 30px;
-    background: #fff;
+    background: #FFF;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 
 .contact .info i {
@@ -884,14 +885,19 @@ section {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #050d18;
+    color: #000;
 }
 
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #173b6c;
+    color: #000;
+}
+
+.form-group {
+    color: #000;
+    border-radius: 10px;
 }
 
 .contact .info .email p {
@@ -929,11 +935,21 @@ section {
     color: #fff;
 }
 
+.form-group input {
+    border: 0;
+    padding: 20px;
+    outline: none;
+    margin-top: 10px;
+    background: #fff;
+    font-size: 16px;
+}
+
 .contact .php-email-form {
     width: 100%;
     padding: 30px;
-    background: #fff;
+    background: #dce8f8;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 
 .contact .php-email-form .form-group {
